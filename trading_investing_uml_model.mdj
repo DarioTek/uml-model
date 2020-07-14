@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "Untitled",
+	"name": "Trading and Investing",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -389,6 +389,32 @@
 						}
 					],
 					"defaultDiagram": true
+				},
+				{
+					"_type": "ERDDataModel",
+					"_id": "AAAAAAFzSIOKRj8UBmA=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Data Model1",
+					"ownedElements": [
+						{
+							"_type": "ERDDiagram",
+							"_id": "AAAAAAFzSIOKRj8VJGA=",
+							"_parent": {
+								"$ref": "AAAAAAFzSIOKRj8UBmA="
+							},
+							"name": "ERDDiagram1"
+						}
+					]
+				},
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFzSIPOUT8ZU+8=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "ClassDiagram1"
 				}
 			]
 		}
